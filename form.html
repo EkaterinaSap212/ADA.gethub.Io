@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/style.css">
+        <title>Форма регистрации</title>
+    </head>
+    <body>
+        
+        <div class="page">
+
+            <div class="header">
+                <h1 class="header-title">Форма</h1>
+            </div>
+
+            <div class="nav">
+                <a class="nav-link" href="index.html">Главная</a>
+                <a class="nav-link" href="map.html">Карта сайта</a>
+                <a class="nav-link" href="form.html">Форма</a>
+            </div>
+            <center><a href="index.html"><img src="/img/403076-1547154832.jpg" width="200"></a></center>
+            
+            <div class="form">
+                
+                <form action="/" method="post">
+                    <h2 class="form-title">Данные</h2>
+                        <label for="male">Муж</label>
+                        <input type="radio" name="choose_male" id="male">
+
+                        <label for="female">Жен</label>
+                        <input type="radio" name="choose_male" id="female">
+
+                        <div>
+                            <input class="form-input" type="text" name="name" placeholder="Ваше имя">
+                        </div>
+                        <div>
+                            <input class="form-input" type="email" name="email" placeholder="Ваш e-mail">
+                        </div>
+                        <div>
+                            <input class="form-input" type="tel" name="tel" placeholder="Ваш номер телефона">
+                        </div>
+
+
+                        <h2 class="form-title">Пароль</h2>
+                        <div>
+                            <input class="form-input" type="password" name="old-password" placeholder="Старый пароль">
+                        </div>
+                        <div>
+                            <input class="form-input" type="password" name="new-password" placeholder="Новый пароль">
+                        </div>
+
+                        <button class="btn-submit" type="submit">Сохранить</button>
+                        <button class="btn-reset" type="reset">Очистить</button>
+                </form>
+            </div>
+
+            <div class="footer">
+                <p></p>               
+                <p><a class="email" href="georgiy04@list.ru">Напиши мне письмо</a>
+            </div>
+        </div>
+
+    </body>
+</html>
